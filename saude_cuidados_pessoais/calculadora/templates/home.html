@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+
+</head>
+<body>
+    <h1>Essence of Health</h1>
+    <p>A saúde pessoal é um pilar fundamental para uma vida equilibrada e satisfatória. Cuidar do próprio corpo e mente permite que indivíduos enfrentem desafios diários com mais energia, disposição e resiliência. Através de hábitos saudáveis, como alimentação balanceada, prática de atividades físicas, qualidade do sono e atenção ao bem-estar mental, é possível prevenir uma série de doenças e promover longevidade. Neste site, exploraremos maneiras de cultivar a saúde pessoal, oferecendo ferramentas, como a calculadora de IMC, e informações para apoiar uma jornada de bem-estar e autoconhecimento contínuos.</p>
+    <a href="{% url 'calculadora_imc' %}">Calculadora de IMC</a>
+</body>
+</html>
+
